@@ -1,0 +1,29 @@
+/* app.component.css */
+nav {
+    background-color: #007bff;  /* Puedes cambiar esto a tu color preferido */
+    padding: 10px;
+    z-index: 10;  /* Asegúrate de que el índice Z sea lo suficientemente alto */
+    position: relative; /* Asegura que el contenedor del nav esté por encima de otros elementos */
+  }
+  
+  nav a {
+    color: white;  /* Color de texto de los enlaces */
+    text-decoration: none;  /* Evita subrayados si no lo quieres */
+    padding: 10px 15px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  nav a:hover {
+    background-color: #0056b3;  /* Cambia el color al pasar el mouse por encima */
+    border-radius: 5px;  /* Si quieres bordes redondeados */
+  }
+
+  /* app.component.css */
+router-outlet {
+    background-color: rgba(0, 0, 0, 0.1);  /* Color de fondo temporal para depuración */
+    display: block;
+    height: 100vh;
+  }
+  
+  

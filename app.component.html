@@ -1,0 +1,12 @@
+<!-- app.component.html -->
+<div class="app-container">
+  <!-- Navegación -->
+  <nav>
+    <a routerLink="/" routerLinkActive="active">Home</a> |
+    <a routerLink="/add-task" routerLinkActive="active">Add Task</a> |
+    <a routerLink="/report" routerLinkActive="active">Task Report</a>
+  </nav>
+
+  <!-- Este es el lugar donde se renderizarán las vistas según las rutas -->
+  <router-outlet></router-outlet>
+</div>
